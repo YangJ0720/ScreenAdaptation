@@ -15,6 +15,8 @@ public class Main {
         list.add(new DisplayMetrics(480, 800, 1.5f, 160));
         // 酷派 Coolpad 5370
         list.add(new DisplayMetrics(720, 1184, 2.0f, 320));
+        // 小米 3
+        list.add(new DisplayMetrics(1080, 1920, 3.0f, 480));
         // Google Nexus 6
         // Google Pixel XL
         list.add(new DisplayMetrics(1440, 2392, 3.5f, 560));
