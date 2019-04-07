@@ -1,4 +1,4 @@
-package yangj.screenadaptation
+package yangj.screenadapter
 
 import org.junit.Test
 
