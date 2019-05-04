@@ -23,6 +23,8 @@ public class Main {
         list.add(new DisplayMetrics(480, 800, 1.5f, 160));
         // 酷派 Coolpad 5370
         list.add(new DisplayMetrics(720, 1184, 2.0f, 320));
+        // 红米 Note 7 Pro
+        list.add(new DisplayMetrics(1080, 2120, 2.75f, 440));
         // ZUK Z1
         // 小米 3
         list.add(new DisplayMetrics(1080, 1920, 3.0f, 480));
