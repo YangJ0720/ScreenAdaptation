@@ -22,18 +22,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initView() {
-        val sb = StringBuilder()
+        val sb = StringBuilder("UI设计尺寸: \nwidth = 360dp\nheight = 640dp")
         val metrics = resources.displayMetrics
-        sb.append("widthPixels = ")
+        sb.append("\n设备屏幕参数: \nwidthPixels = ")
         sb.append(metrics.widthPixels)
-        sb.append("\n")
-        sb.append("heightPixels = ")
+        sb.append("\nheightPixels = ")
         sb.append(metrics.heightPixels)
-        sb.append("\n")
-        sb.append("density = ")
+        sb.append("\ndensity = ")
         sb.append(metrics.density)
-        sb.append("\n")
-        sb.append("densityDpi = ")
+        sb.append("\ndensityDpi = ")
         sb.append(metrics.densityDpi)
         textView.text = sb
         btn_width.setOnClickListener {

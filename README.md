@@ -17,3 +17,6 @@ Android 屏幕适配最佳实践
       android:gravity="center"
       android:background="@color/colorAccent"/>
 ```
+
+### 注意事项
+1.高度适配可以结合UI设计使用weight进行适配
