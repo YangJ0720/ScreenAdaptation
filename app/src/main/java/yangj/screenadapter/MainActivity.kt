@@ -38,11 +38,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("mode", Config.SMALL_WIDTH_MATCH)
             startActivity(intent)
         }
-        btn_full.setOnClickListener {
-            val intent = Intent(this, ShowActivity::class.java)
-            intent.putExtra("mode", Config.FULL_MATCH)
-            startActivity(intent)
-        }
     }
 
 }

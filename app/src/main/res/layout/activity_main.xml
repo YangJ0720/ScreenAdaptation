@@ -19,10 +19,4 @@
             android:layout_height="@dimen/dp_50"
             android:text="@string/width_match"/>
 
-    <Button
-            android:id="@+id/btn_full"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_50"
-            android:text="@string/full_match"/>
-
 </LinearLayout>
